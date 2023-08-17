@@ -13,12 +13,12 @@ const colors = {
   snow: '#f9fafc',
   white: '#ffffff',
 
-  red: '#ec3750',
-  orange: '#ff8c37',
-  yellow: '#f1c40f',
-  green: '#33d6a6',
-  cyan: '#5bc0de',
-  blue: '#338eda',
+  red: '#ec3234',
+  orange: '#fa7b33',
+  yellow: '#eed600',
+  green: '#00d766',
+  cyan: '#00cbde',
+  blue: '#4094da',
   purple: '#a633d6',
 
   twitter: '#1da1f2',
@@ -53,7 +53,7 @@ const theme: Theme = {
     border: colors.smoke,
     placeholder: colors.muted,
     secondary: colors.slate,
-    primary: colors.red,
+    primary: colors.orange,
     muted: colors.muted,
     accent: colors.blue,
     modes: {
@@ -73,8 +73,8 @@ const theme: Theme = {
   },
   fonts: {
     heading:
-      '"Phantom Sans", system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif',
-    body: '"Phantom Sans", system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif',
+      '"Outfit", system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif',
+    body: '"Readex Pro", system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif',
     monospace: '"SF Mono", "Roboto Mono", Menlo, Consolas, monospace'
   },
   lineHeights: {
